@@ -1,11 +1,7 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-This is a repository for sharing course materials of Advanced Programming at IT University of Copenhagen
-
+This is a repository for sharing course materials of Advanced Programming at IT University of Copenhagen.
+Course website: https://learnit.itu.dk/course/view.php?id=3018481#section-0
 
 ### How do I get set up? ###
 
@@ -18,5 +14,5 @@ If you want to version control your homework solutions, it is probably best to f
 
 ### Who do I talk to? ###
 
-Any course issues are best to discuss on the course forum on LearnIT. The forum is monitored regularly as long as the course lasts.
+Any course issues are best to discuss on the course forum on LearnIT (via https://learnit.itu.dk/course/view.php?id=3018481#section-0). The forum is monitored regularly as long as the course lasts.
 If you are not a student on the course and have questions about this repo, please contact Andrzej Wasowski (wasowski@itu.dk).

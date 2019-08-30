@@ -1,4 +1,6 @@
-name := "intro"
+name := "option"
+
+version := "1.2.8"
 
 scalaVersion := "2.12.9"
 

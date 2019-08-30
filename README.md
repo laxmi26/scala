@@ -38,6 +38,6 @@ You may want to modify the Dockerfile to clone your own fork instead (so that yo
 
 Another convenient thing to do is to run the docker container with a mounted local directory. Let's assume you have cloned the course code repository to ABSOLUTE_PATH (so this is the abnoslute path to the root of the local git repository containing course's code).
 
-  docker run -it --volume=/home/wasowski/work/2015-adpro/src/:/adpro --workdir=/adpro adpro
+  docker run -it --volume=ABSOLUTE_PATH:/adpro --workdir=/adpro adpro
 
 This will start docker with your repository visible in current directory.  You can run sbt (and other scala tools) there, while you can do all your file editing from Windows, Mac OS, or your main Linux installation.  Also if you have any technical problem inside this docker installation, the teachers will likely be able to reproduce it in exactly the same conditions on their machines.

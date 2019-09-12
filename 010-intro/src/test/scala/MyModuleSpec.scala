@@ -7,7 +7,9 @@ class MyModuleSpec extends FreeSpec with Matchers with PropertyChecks {
 
     // does not test for overflow, but this is not the point here
     "behaves like n*n" in {
-      forAll ("n") { (n: Int) => MyModule.square (n) shouldBe n*n }
+      forAll ("n") {
+         (n: Int) => MyModule.square (n) shouldBe n*n 
+         }
     }
 
   }

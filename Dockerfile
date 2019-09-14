@@ -4,7 +4,7 @@
 FROM ubuntu:18.04
 
 RUN apt-get update 
-RUN apt-get -y install wget git openjdk-8-jre-headless vim emacs nano mcedit jed joe
+RUN apt-get -y install wget git openjdk-8-jdk-headless vim emacs nano mcedit jed joe
 RUN wget https://dl.bintray.com/sbt/debian/sbt-0.13.7.deb 
 RUN dpkg -i sbt-0.13.7.deb
 RUN git clone https://bitbucket.org/itu-square/2019-adpro-fall.git

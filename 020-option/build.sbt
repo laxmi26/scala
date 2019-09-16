@@ -1,8 +1,8 @@
-name := "option"
+name := "ADPRO 020-option"
 
-version := "1.2.8"
+version := "0.02"
 
-scalaVersion := "2.12.9"
+scalaVersion := "2.12.6"
 
 scalacOptions += "-deprecation"
 

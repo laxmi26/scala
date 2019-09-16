@@ -17,4 +17,7 @@ object Main extends App {
     println (l1.headOption)
     println (l2.headOption)
     println(l2)
+
+    println("From values" + from(10))
+    println("To  values" + to(10))
 }
